@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>tables</title>
+    <style>
+        thead{
+            font-size:22px;
+            color:black;
+            background-image:radial-gradient(pink, red);
+        }
+        tfoot{
+            
+            font-weight: bold;
+            background-image:radial-gradient(pink, yellow, green);
+         
+        }
+        table, th, td{
+            border:1px solid pink; 
+
+        }
+        th, td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="5">
+        <caption>students list</caption>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name
+            </th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>nino</td>
+            <td>durdiadze</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>nike</td>
+            <td>goldbarg</td>
+            <td>30</td>
+        </tr>
+    </table>
+    <hr>
+    <table bgcolor="pink" >
+        <tr>
+            <th>name </th>
+            <th colspan="2">mobile</th>
+        </tr>
+        <tr>
+            <td>nino</td>
+            <td>555555555</td>
+            <td>444444444</td>
+        </tr>
+
+    </table>
+    <hr>
+    <table background="ferrari.jpg" width="280" height="170">
+            <tr>
+                <th>name: </th>
+                <td>Bill Gates</th>
+            </tr>
+            <tr>
+                <th rowspan="2">mobile</th>
+                <td>555555555</td>
+            </tr>
+            <tr>
+                <td>444444444</td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <th>image
+                <td></td>
+                </th>
+            </tr>
+        </table>
+        <hr>
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th colspan="4">Header of the table</th>
+                </tr>
+            </thead>
+            <tfoot>
+                    <tr>
+                            <th colspan="4">Foot of the table</th>
+                        </tr>
+            </tfoot>
+            <tbody>
+                    <tr>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>123</td>
+                        </tr>
+                        <tr>
+                                <td>123</td>
+                                <td>123</td>
+                                <td>123</td>
+                                <td>123</td>
+                        </tr>
+            </tbody>
+            
+        </table>
+</html>

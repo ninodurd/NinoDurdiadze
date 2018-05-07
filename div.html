@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/register" method="POST">
+         Username: <input type="text" name="firstname" placeholder="firstname" maxlength="10"><br>
+        
+         password : <input type="password" name="password" placeholder="password">
+         <input type="submit" value="Login" onclick="alert('hello')">
+         <button type="reset" value="reset">reset</button>
+         <hr>
+         <input type="radio" name="gender" value="male">male
+         <input type="radio" name="gender" value="male">female
+         <input type="radio" name="gender" value="male">other
+         <hr>
+         <input type="checkbox" name="bike" value="bike">have a bike
+         <input type="checkbox" name="car" value="car">have a car
+         <hr>
+         <lable id="cars" >Select cars</lable>
+         <select name="cars[]" id="cars" multiple>
+                <option value="">select cars</option>
+             <option value="bmw">BMW</option>
+             <option value="ferrari">ferrari</option>
+             <option value="mazda">mazda</option>
+         </select>
+         <hr>
+         <fieldset>
+             <legend>VeHicles</legend>
+                <input type="checkbox" name="bike" value="bike">have a bike
+                <input type="checkbox" name="car" value="car">have a car
+         </fieldset>
+    </form>
+</body>
+
+</html>
