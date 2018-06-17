@@ -1,0 +1,77 @@
+:root{
+    font-size: 16px;
+}
+body {
+    box-sizing: border-box;
+    background-color: aqua;
+    margin: 0 auto;
+    max-width:380px;
+    font-size:16px;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size:20px;
+}
+
+img {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+figure {
+    margin: 0;
+    flex-basis: 120px;
+    background-color: black;
+    
+    border:5px solid black;
+  margin-right:10px;
+  margin-top:10px;
+    
+}
+figcaption{
+    color:white;
+
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    max-width:280px;
+ 
+}
+@media only screen and (min-width: 600px) {
+    body {
+        background-color:	rgb(150, 30, 30);
+        margin:0 auto;
+        max-width:700px;
+     
+    }
+    figure {
+        flex-basis: 200px;
+    }
+    .container{
+        max-width:820px;
+    }
+
+}
+ @media only screen and (min-width: 1000px) {
+    body {
+        background-color:	rgb(13, 63, 12);
+        margin-left: 7%;
+        margin-right:7%;
+        max-width:100%;
+     
+    }
+    figure {
+        flex-basis: 220px;
+    }
+    .container{
+        max-width:1000px;
+    }
+        figure:hover {
+            opacity: 0.4;
+          
+          }
+    }
+

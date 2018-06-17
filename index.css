@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ .title{
+     color:#008B8B;
+     text-align:center;
+     margin-bottom:15px;
+}
+.container>div{
+    height: 250px;
+  
+    background-color:#008B8B;
+    border-radius: 15px;
+    color:white;
+    text-align:center; 
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap:20px;
+}
+.container div:hover{
+    transform: rotate3d(1, 2.0, 3.0, 10deg);
+    transition-duration: 3s;
+}

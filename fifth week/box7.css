@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* header */
+
+.left-div{
+    height:80vh;
+    border: 2px solid grey;
+    float:left;
+    width:20%;
+    float:left;
+}
+header{
+    height:30vh;
+    border: 2px solid black;
+    width:80%;
+    float:right;
+    
+}
+/* main */
+div{
+    float:left;
+   height: 50vh;
+   width:20%;
+   border: 2px solid grey;
+}
+.main_div{
+    float:left;
+    height: 50vh;
+    width: 60%;
+    border: 2px solid grey;
+ 
+}
+/* footer */
+footer{
+    clear:left;
+    height: 20vh;
+    border: 2px solid black;
+}
+
+

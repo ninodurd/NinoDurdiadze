@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* header */
+.head-left{
+    height: 30vh;
+    width: 25%;
+    border: 2px solid black;
+    float:left;
+
+}
+header{
+    height:30vh;
+    border: 2px solid black;
+}
+.head-right{
+    height: 30vh;
+    width: 25%;
+    border: 2px solid black;
+    float: right;
+ 
+}
+/* main */
+div{
+    float:left;
+   height: 50vh;
+   width:25%;
+   border: 2px solid grey;
+}
+.main_div{
+    float:left;
+    height: 50vh;
+    width: 50%;
+    border: 2px solid grey;
+ 
+}
+/* footer */
+footer{
+    clear:left;
+    height: 20vh;
+    border: 2px solid black;
+}

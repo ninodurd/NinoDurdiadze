@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    height:30vh;
+    border: 2px solid black;
+}
+div{
+    float:left;
+   height: 70vh;
+   width: 33.33%;
+   border: 2px solid grey;
+}

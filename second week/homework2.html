@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style>
+        table,
+        th,
+        td {
+            border-collapse: collapse;
+
+        }
+        table{
+            width:500px;
+        }
+
+        th,
+        td {
+            padding: 6px;
+        }
+
+        textarea {
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <table border align="center">
+        <tr>
+            <th>Control Type</th>
+            <th>Data</th>
+            <th>Control</th>
+        </tr>
+        <tr>
+            <td>Text box</td>
+            <td>Name:</td>
+            <td>
+                <form>
+                    <input type="text" name="First name" placeholder="Enter name">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>Password:</td>
+            <td>
+                <form>
+                    <input type="password" name="password">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Text area</td>
+            <td>Address:</td>
+            <td>
+                <textarea rows="4" cols="22" placeholder="Enter Address"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Drop down list</td>
+            <td>Area:</td>
+            <td>
+                <select>
+                    <option value="center">center</option>
+                    <option value="right">Right</option>
+                    <option value="left">left</option>
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Check box</td>
+            <td>Hobbies:</td>
+            <td>
+                <label for="sport"></label>
+                <input type="checkbox" name="sport" id="sport" value="sport">Sport
+                <br>
+                <label for="reading"></label>
+                <input type="checkbox" name="reading" id="reading" value="reading">Reading
+                <br>
+                <label for="sport"></label>
+                <input type="checkbox" name="tv" id="tv" value="tv">T.V
+                <br>
+                <label for="sport"></label>
+                <input type="checkbox" name="internet" id="internet" value="internet">Sport
+                <br>
+
+
+            </td>
+        </tr>
+        <tr>
+            <td>Radio Buttons</td>
+            <td>Gender:</td>
+            <td>
+                <fieldset>
+                    <legend>Gender selection</legend>
+                    <input type="radio" name="gender" value="male" required>male
+                    <input type="radio" name="gender" value="Female" required>Female
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>File upload</td>
+            <td>Your image:</td>
+            <td>
+                <form action="image">
+                    <input type="file" name="image" accept="image/*"></input> 
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Buttons</td>
+            <td>Actions:</td>
+            <td>
+                <form action="submit">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <button type="button">Button</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
