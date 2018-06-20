@@ -25,3 +25,7 @@
     transform: rotate3d(1, 2.0, 3.0, 10deg);
     transition-duration: 3s;
 }
+.container> div a{
+    padding:10px;
+    color:white;
+}
